@@ -1,0 +1,36 @@
+$main-color: #fafafa;
+
+.banner-container {
+    position: relative;
+    text-align: center;
+    line-height: 0;
+    .banner-text-container{
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+        .banner-main-text{
+            left: 10rem;
+            color: $main-color;
+            font-size: 3.8rem;
+            margin-bottom: 8rem;
+            text-shadow: 0 0 1px #000, 0 0 3px #000;
+        }
+        .banner-link{
+            color: $main-color;
+            text-decoration: none;
+            padding: 1rem 4rem;
+            border: 1px solid #fafafa;
+            font-size: 1.4rem;
+            text-shadow: 0 0 3px #000, 0 0 5px #000;
+            &:hover {
+                background-color: #000;
+                border: #000;
+                transition: 0.5s;
+            }
+        }
+    }
+    .banner-img {
+        width: 100%;
+    }
+}

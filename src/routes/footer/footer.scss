@@ -1,0 +1,38 @@
+footer {
+    background-color: #222222;
+    color: #fafafa;
+    .footer-main {
+        .group-container {
+            display: flex;
+            padding: 3rem 3rem 2rem 3rem;
+            .footer-card {
+                display: flex;
+                flex-direction: column;
+                width: 33%;
+                gap: 1rem;
+                .card-main-text {
+                    font-weight: 500;
+                    font-size: 1.2rem;
+                    letter-spacing: 0.02rem;
+                    color: #a16abc;
+                }
+                .card-info {
+                }
+                .card-additional-info {
+                }
+                .card-item {
+                    text-decoration: none;
+                    width: fit-content;
+                    color: white;
+                }
+            }
+        }
+    }
+    .footer-secondary {
+        border-top: #5353536b solid 0.5px;
+        background-color: #1d1d1d;
+        .copyright-container {
+            padding: 1.5rem 3rem;
+        }
+    }
+}

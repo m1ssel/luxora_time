@@ -1,0 +1,81 @@
+.second-section-container{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    line-height: 0;
+    .choose-container {
+        display: flex;
+        gap: 1.5rem;
+        .choose-block {
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+            .choose-banner {
+                overflow: hidden;
+                width: 100%;
+                will-change: transform;
+                transition: 0.5s;
+            }
+            .choose-internal-text {
+                position: absolute;
+                top: 85%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background-color: #fafafa;
+                display: flex;
+                align-items: center;
+                border-radius: 5px;
+                justify-content: space-between;
+                width: 25rem;
+                height: 6rem;
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
+                .choose-text-container {
+                    display: flex;
+                    flex-direction: column;
+                    margin-left: 1.5rem;
+                    .choose-main-text {
+                        font-size: 0.8rem;
+                        line-height: 1rem;
+                        color: #666666;
+                        letter-spacing: 0.02rem;
+                    }
+                    .choose-text {
+                        font-size: 1.3rem;
+                        line-height: 1.8rem;
+                        font-weight: 500;
+                        letter-spacing: 0.02rem;
+                    }
+                }
+                .arrow-container {
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                    width: 5.5rem;
+                    height: 100%;
+                    padding: 0 1.7rem;
+                    border-left: #66666648 solid 0.5px;
+                    border-top-right-radius: 5px;
+                    border-bottom-right-radius: 5px;
+                    .arrow-img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+            &:hover {
+                .choose-banner {
+                    transform: scale(1.02);
+                    transform-origin: center;
+                }
+               .arrow-container {
+                background-color: black;
+                transition: 0.5s;
+                .arrow-img {
+                    color: white;
+                    transition: 0.5s;
+                }
+               }
+            }
+        }
+    }
+}
