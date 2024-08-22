@@ -16,7 +16,7 @@ const Navigation = () => {
               {/* <img src={Logo} alt="logo" className="logo"/> */}
           </div>
           <div className="nav-middle">
-              <h1 className="middle-text">Luxora Time</h1>
+              <Link to={"/"} className="middle-text">Luxora Time</Link>
           </div>
             <div className="nav-right">
               <div className="nav-link-container">

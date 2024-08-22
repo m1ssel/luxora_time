@@ -1,0 +1,130 @@
+[
+    {
+        "id": 1,
+        "img": "/img-db/patek1.webp",
+        "brand": "Patek Philippe",
+        "name": "Patek Philippe Grandmaster Chime 5175",
+        "price": "8.000.000",
+        "color": "black"
+    },
+    {
+        "id": 2,
+        "img": "/img-db/patek2.webp",
+        "brand": "Patek Philippe",
+        "name": "Patek Philippe Annual Calendar Chronograph 5960",
+        "price": "65.000",
+        "color": "silver"
+    },
+    {
+        "id": 3,
+        "img": "/img-db/patek1.webp",
+        "brand": "Patek Philippe",
+        "name": "Patek Philippe Grandmaster Chime 5175",
+        "price": "8.000.000",
+        "color": "black"
+    },
+    {
+        "id": 4,
+        "img": "/img-db/patek2.webp",
+        "brand": "Patek Philippe",
+        "name": "Patek Philippe Annual Calendar Chronograph 5960",
+        "price": "65.000",
+        "color": "silver"
+    },
+    {
+        "id": 5,
+        "img": "/img-db/patek1.webp",
+        "brand": "Patek Philippe",
+        "name": "Patek Philippe Grandmaster Chime 5175",
+        "price": "8.000.000",
+        "color": "black"
+    },
+    {
+        "id": 6,
+        "img": "/img-db/patek2.webp",
+        "brand": "Patek Philippe",
+        "name": "Patek Philippe Annual Calendar Chronograph 5960",
+        "price": "65.000",
+        "color": "silver"
+    },
+    {
+        "id": 7,
+        "img": "/img-db/patek1.webp",
+        "brand": "Patek Philippe",
+        "name": "Patek Philippe Grandmaster Chime 5175",
+        "price": "8.000.000",
+        "color": "black"
+    },
+    {
+        "id": 8,
+        "img": "/img-db/patek2.webp",
+        "brand": "Patek Philippe",
+        "name": "Patek Philippe Annual Calendar Chronograph 5960",
+        "price": "65.000",
+        "color": "silver"
+    },
+    {
+        "id": 9,
+        "img": "/img-db/rolex1.webp",
+        "brand": "Rolex",
+        "name": "Rolex Cosmograph Daytona 100th Anniversary 24H Hours of Le Mans",
+        "price": "150.000",
+        "color": "gold"
+    },
+    {
+        "id": 10,
+        "img": "/img-db/rolex2.webp",
+        "brand": "Rolex",
+        "name": "Rolex Sky-Dweller Stainless Steel",
+        "price": "200.000",
+        "color": "White"
+    },
+    {
+        "id": 11,
+        "img": "/img-db/rolex1.webp",
+        "brand": "Rolex",
+        "name": "Rolex Cosmograph Daytona 100th Anniversary 24H Hours of Le Mans",
+        "price": "150.000",
+        "color": "gold"
+    },
+    {
+        "id": 12,
+        "img": "/img-db/rolex2.webp",
+        "brand": "Rolex",
+        "name": "Rolex Sky-Dweller Stainless Steel",
+        "price": "200.000",
+        "color": "White"
+    },
+    {
+        "id": 13,
+        "img": "/img-db/rolex1.webp",
+        "brand": "Rolex",
+        "name": "Rolex Cosmograph Daytona 100th Anniversary 24H Hours of Le Mans",
+        "price": "150.000",
+        "color": "gold"
+    },
+    {
+        "id": 14,
+        "img": "/img-db/rolex2.webp",
+        "brand": "Rolex",
+        "name": "Rolex Sky-Dweller Stainless Steel",
+        "price": "200.000",
+        "color": "White"
+    },
+    {
+        "id": 15,
+        "img": "/img-db/rolex1.webp",
+        "brand": "Rolex",
+        "name": "Rolex Cosmograph Daytona 100th Anniversary 24H Hours of Le Mans",
+        "price": "150.000",
+        "color": "gold"
+    },
+    {
+        "id": 16,
+        "img": "/img-db/rolex2.webp",
+        "brand": "Rolex",
+        "name": "Rolex Sky-Dweller Stainless Steel",
+        "price": "200.000",
+        "color": "White"
+    }
+]

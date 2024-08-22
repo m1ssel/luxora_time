@@ -1,0 +1,36 @@
+.shop {
+    max-width: 96%;
+    margin: 0 auto;
+    .btn {
+    }
+    .shop-container {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 2rem;
+        .product {
+            text-align: center;
+            text-decoration: none;
+            color: #222222;
+            width: 25%;
+            margin-top: 5rem;
+            .product-img {
+                max-height: 25rem;
+                margin-bottom: 2rem;
+            }
+            .product-brand {
+                font-weight: 400;
+                font-size: 0.9rem;
+                margin-bottom: 1rem;
+            }
+            .product-name {
+                margin-bottom: 1rem;
+                max-width: 30rem;
+                font-size: 0.9rem;
+            }
+            .product-price {
+                margin-bottom: 1rem;
+            }
+
+        }
+    }
+}
