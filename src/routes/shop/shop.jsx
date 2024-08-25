@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 import db from '../../assets/db.json'
+import ProductInfo from '../../components/product-info/product-info'
 
 import './shop.scss'
 
@@ -25,7 +26,7 @@ const Shop = () => {
                    <img src={ item.img } className='product-img' />
                    <h3 className='product-brand'> { item.brand } </h3>
                    <h2 className='product-name'> { item.name } </h2>
-                   <p className='product-price'> ${ item.price } </p>                
+                   <p className='product-price'> ${ item.price } </p>
                 </Link>
                )
             }

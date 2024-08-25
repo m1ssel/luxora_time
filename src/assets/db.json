@@ -5,7 +5,13 @@
         "brand": "Patek Philippe",
         "name": "Patek Philippe Grandmaster Chime 5175",
         "price": "8.000.000",
-        "color": "black"
+        "color": "black",
+        "material": "Rose Gold",
+        "glass": "Sapphire",
+        "back": "Open",
+        "diameter": "47.40",
+        "height": "16.10",
+        "text": "The star of Patek Philippe's highly anticipated 175th anniversary collection.<br/><br/>The Grandmaster Chime is sans doubt Patek's most impressive feat of modern times. It features an array of functions housed in a massive 47.4 * 16.1mm rose gold case made up of 214 components, while its movement consists of no less than 1.366 parts. <br/><br/>The traditional grand complication watch can be described as having one acoustic complication, one time measurement complication and one calendar complication - of course preferably all as complicated as possible. Patek Philippe however chose to go its own way and create a watch that's based upon the former and the latter, while doing away with the chronographic bits. By no means a short-cut though: the Grandmaster Chime still features 20 complications, among which two that have never been seen before. <br/><br/>The first novelty is the Date Repeater - and this one we actually had to add to our WatchBase list of complications. The pusher at 4 o'clock will chime the date at the owners request, with a double chime (ding-dong) for each ten and a single chime for each single digit: 26 would be two double chimes and six single chimes. <br/><br/>The second novelty is found in the alarm function. Instead of a buzz, the alarm will chime the hours at which it is set just like the minute repeater - with a built in feature making sure it doesn't chime just once if the alarm is set at say 1:00. <br/><br/>The Grandmaster Chime too features Patek's first Petite and Grande Sonnerie, chiming the time 'en passant'. The power reserve for the Sonnerie is set at an impressive 30 hours, which alone is no small feat. All chiming functions share the same barrel, whose power reserve is displayed separately from that of the timekeeping. <br/><br/>The case is a baroque work of art, lavishly decorated with engraved leaves - an acquired taste or a testament to the museum-worth quality of this watch? <br/><br/>The total of 20 complications is displayed over two dials, with the back dedicated to the perpetual calendar - though of course the 'simple' date display on the front is hooked up to the same perpetual mechanism. <br/><br/>A total of seven pieces are made, with one being destined to a life in the Patek Philippe Museum. Price is set at 2.5 million CHF."
     },
     {
         "id": 2,
@@ -13,7 +19,14 @@
         "brand": "Patek Philippe",
         "name": "Patek Philippe Annual Calendar Chronograph 5960",
         "price": "65.000",
-        "color": "silver"
+        "color": "silver",
+        "material": "Platinum",
+        "glass": "Sapphire",
+        "back": "Open",
+        "shape": "Round",
+        "diameter": "40.50",
+        "W/R": "30.00",
+        "text": "Short-lived, the 5960P-016 brought a darker character to the 5960 family. It features a black dial with matching day/date/month discs, while the case is platinum."
     },
     {
         "id": 3,
@@ -21,7 +34,15 @@
         "brand": "Patek Philippe",
         "name": "Patek Philippe Grandmaster Chime 5175",
         "price": "8.000.000",
-        "color": "black"
+        "color": "black",
+        "material": "Rose Gold",
+        "glass": "Sapphire",
+        "back": "Open",
+        "shape": "box",
+        "diameter": "47.40",
+        "height": "16.10",
+        "W/R": "",
+        "text": "The star of Patek Philippe's highly anticipated 175th anniversary collection.<br/><br/>The Grandmaster Chime is sans doubt Patek's most impressive feat of modern times. It features an array of functions housed in a massive 47.4 * 16.1mm rose gold case made up of 214 components, while its movement consists of no less than 1.366 parts. <br/><br/>The traditional grand complication watch can be described as having one acoustic complication, one time measurement complication and one calendar complication - of course preferably all as complicated as possible. Patek Philippe however chose to go its own way and create a watch that's based upon the former and the latter, while doing away with the chronographic bits. By no means a short-cut though: the Grandmaster Chime still features 20 complications, among which two that have never been seen before. <br/><br/>The first novelty is the Date Repeater - and this one we actually had to add to our WatchBase list of complications. The pusher at 4 o'clock will chime the date at the owners request, with a double chime (ding-dong) for each ten and a single chime for each single digit: 26 would be two double chimes and six single chimes. <br/><br/>The second novelty is found in the alarm function. Instead of a buzz, the alarm will chime the hours at which it is set just like the minute repeater - with a built in feature making sure it doesn't chime just once if the alarm is set at say 1:00. <br/><br/>The Grandmaster Chime too features Patek's first Petite and Grande Sonnerie, chiming the time 'en passant'. The power reserve for the Sonnerie is set at an impressive 30 hours, which alone is no small feat. All chiming functions share the same barrel, whose power reserve is displayed separately from that of the timekeeping. <br/><br/>The case is a baroque work of art, lavishly decorated with engraved leaves - an acquired taste or a testament to the museum-worth quality of this watch? <br/><br/>The total of 20 complications is displayed over two dials, with the back dedicated to the perpetual calendar - though of course the 'simple' date display on the front is hooked up to the same perpetual mechanism. <br/><br/>A total of seven pieces are made, with one being destined to a life in the Patek Philippe Museum. Price is set at 2.5 million CHF."
     },
     {
         "id": 4,
@@ -29,7 +50,14 @@
         "brand": "Patek Philippe",
         "name": "Patek Philippe Annual Calendar Chronograph 5960",
         "price": "65.000",
-        "color": "silver"
+        "color": "silver",
+        "material": "Platinum",
+        "glass": "Sapphire",
+        "back": "Open",
+        "shape": "Round",
+        "diameter": "40.50",
+        "W/R": "30.00",
+        "text": "Short-lived, the 5960P-016 brought a darker character to the 5960 family. It features a black dial with matching day/date/month discs, while the case is platinum."
     },
     {
         "id": 5,
@@ -37,7 +65,15 @@
         "brand": "Patek Philippe",
         "name": "Patek Philippe Grandmaster Chime 5175",
         "price": "8.000.000",
-        "color": "black"
+        "color": "black",
+        "material": "Rose Gold",
+        "glass": "Sapphire",
+        "back": "Open",
+        "shape": "box",
+        "diameter": "47.40",
+        "height": "16.10",
+        "W/R": "",
+        "text": "The star of Patek Philippe's highly anticipated 175th anniversary collection.<br/><br/>The Grandmaster Chime is sans doubt Patek's most impressive feat of modern times. It features an array of functions housed in a massive 47.4 * 16.1mm rose gold case made up of 214 components, while its movement consists of no less than 1.366 parts. <br/><br/>The traditional grand complication watch can be described as having one acoustic complication, one time measurement complication and one calendar complication - of course preferably all as complicated as possible. Patek Philippe however chose to go its own way and create a watch that's based upon the former and the latter, while doing away with the chronographic bits. By no means a short-cut though: the Grandmaster Chime still features 20 complications, among which two that have never been seen before. <br/><br/>The first novelty is the Date Repeater - and this one we actually had to add to our WatchBase list of complications. The pusher at 4 o'clock will chime the date at the owners request, with a double chime (ding-dong) for each ten and a single chime for each single digit: 26 would be two double chimes and six single chimes. <br/><br/>The second novelty is found in the alarm function. Instead of a buzz, the alarm will chime the hours at which it is set just like the minute repeater - with a built in feature making sure it doesn't chime just once if the alarm is set at say 1:00. <br/><br/>The Grandmaster Chime too features Patek's first Petite and Grande Sonnerie, chiming the time 'en passant'. The power reserve for the Sonnerie is set at an impressive 30 hours, which alone is no small feat. All chiming functions share the same barrel, whose power reserve is displayed separately from that of the timekeeping. <br/><br/>The case is a baroque work of art, lavishly decorated with engraved leaves - an acquired taste or a testament to the museum-worth quality of this watch? <br/><br/>The total of 20 complications is displayed over two dials, with the back dedicated to the perpetual calendar - though of course the 'simple' date display on the front is hooked up to the same perpetual mechanism. <br/><br/>A total of seven pieces are made, with one being destined to a life in the Patek Philippe Museum. Price is set at 2.5 million CHF."
     },
     {
         "id": 6,
@@ -45,7 +81,14 @@
         "brand": "Patek Philippe",
         "name": "Patek Philippe Annual Calendar Chronograph 5960",
         "price": "65.000",
-        "color": "silver"
+        "color": "silver",
+        "material": "Platinum",
+        "glass": "Sapphire",
+        "back": "Open",
+        "shape": "Round",
+        "diameter": "40.50",
+        "W/R": "30.00",
+        "text": "Short-lived, the 5960P-016 brought a darker character to the 5960 family. It features a black dial with matching day/date/month discs, while the case is platinum."
     },
     {
         "id": 7,
@@ -53,7 +96,15 @@
         "brand": "Patek Philippe",
         "name": "Patek Philippe Grandmaster Chime 5175",
         "price": "8.000.000",
-        "color": "black"
+        "color": "black",
+        "material": "Rose Gold",
+        "glass": "Sapphire",
+        "back": "Open",
+        "shape": "box",
+        "diameter": "47.40",
+        "height": "16.10",
+        "W/R": "",
+        "text": "The star of Patek Philippe's highly anticipated 175th anniversary collection.<br/><br/>The Grandmaster Chime is sans doubt Patek's most impressive feat of modern times. It features an array of functions housed in a massive 47.4 * 16.1mm rose gold case made up of 214 components, while its movement consists of no less than 1.366 parts. <br/><br/>The traditional grand complication watch can be described as having one acoustic complication, one time measurement complication and one calendar complication - of course preferably all as complicated as possible. Patek Philippe however chose to go its own way and create a watch that's based upon the former and the latter, while doing away with the chronographic bits. By no means a short-cut though: the Grandmaster Chime still features 20 complications, among which two that have never been seen before. <br/><br/>The first novelty is the Date Repeater - and this one we actually had to add to our WatchBase list of complications. The pusher at 4 o'clock will chime the date at the owners request, with a double chime (ding-dong) for each ten and a single chime for each single digit: 26 would be two double chimes and six single chimes. <br/><br/>The second novelty is found in the alarm function. Instead of a buzz, the alarm will chime the hours at which it is set just like the minute repeater - with a built in feature making sure it doesn't chime just once if the alarm is set at say 1:00. <br/><br/>The Grandmaster Chime too features Patek's first Petite and Grande Sonnerie, chiming the time 'en passant'. The power reserve for the Sonnerie is set at an impressive 30 hours, which alone is no small feat. All chiming functions share the same barrel, whose power reserve is displayed separately from that of the timekeeping. <br/><br/>The case is a baroque work of art, lavishly decorated with engraved leaves - an acquired taste or a testament to the museum-worth quality of this watch? <br/><br/>The total of 20 complications is displayed over two dials, with the back dedicated to the perpetual calendar - though of course the 'simple' date display on the front is hooked up to the same perpetual mechanism. <br/><br/>A total of seven pieces are made, with one being destined to a life in the Patek Philippe Museum. Price is set at 2.5 million CHF."
     },
     {
         "id": 8,
@@ -61,7 +112,14 @@
         "brand": "Patek Philippe",
         "name": "Patek Philippe Annual Calendar Chronograph 5960",
         "price": "65.000",
-        "color": "silver"
+        "color": "silver",
+        "material": "Platinum",
+        "glass": "Sapphire",
+        "back": "Open",
+        "shape": "Round",
+        "diameter": "40.50",
+        "W/R": "30.00",
+        "text": "Short-lived, the 5960P-016 brought a darker character to the 5960 family. It features a black dial with matching day/date/month discs, while the case is platinum."
     },
     {
         "id": 9,
@@ -69,7 +127,16 @@
         "brand": "Rolex",
         "name": "Rolex Cosmograph Daytona 100th Anniversary 24H Hours of Le Mans",
         "price": "150.000",
-        "color": "gold"
+        "color": "gold",
+        "material": "Ceramic, Yellow Gold",
+        "glass": "Sapphire",
+        "back": "Open",
+        "shape": "Round",
+        "diameter": "40.00",
+        "height": "12.20",
+        "W/R": "100.00",
+        "lug-width": "20.00",
+        "text": ""
     },
     {
         "id": 10,
@@ -77,7 +144,15 @@
         "brand": "Rolex",
         "name": "Rolex Sky-Dweller Stainless Steel",
         "price": "200.000",
-        "color": "White"
+        "color": "White",
+        "material": "White Gold, Stainless Steel",
+        "glass": "Sapphire",
+        "back": "Closed",
+        "shape": "Round",
+        "diameter": "42.00",
+        "height": "14.10",
+        "W/R": "100.00",
+        "text": ""
     },
     {
         "id": 11,
@@ -85,7 +160,16 @@
         "brand": "Rolex",
         "name": "Rolex Cosmograph Daytona 100th Anniversary 24H Hours of Le Mans",
         "price": "150.000",
-        "color": "gold"
+        "color": "gold",
+        "material": "Ceramic, Yellow Gold",
+        "glass": "Sapphire",
+        "back": "Open",
+        "shape": "Round",
+        "diameter": "40.00",
+        "height": "12.20",
+        "W/R": "100.00",
+        "lug-width": "20.00",
+        "text": ""
     },
     {
         "id": 12,
@@ -93,7 +177,15 @@
         "brand": "Rolex",
         "name": "Rolex Sky-Dweller Stainless Steel",
         "price": "200.000",
-        "color": "White"
+        "color": "White",
+        "material": "White Gold, Stainless Steel",
+        "glass": "Sapphire",
+        "back": "Closed",
+        "shape": "Round",
+        "diameter": "42.00",
+        "height": "14.10",
+        "W/R": "100.00",
+        "text": ""
     },
     {
         "id": 13,
@@ -101,7 +193,16 @@
         "brand": "Rolex",
         "name": "Rolex Cosmograph Daytona 100th Anniversary 24H Hours of Le Mans",
         "price": "150.000",
-        "color": "gold"
+        "color": "gold",
+        "material": "Ceramic, Yellow Gold",
+        "glass": "Sapphire",
+        "back": "Open",
+        "shape": "Round",
+        "diameter": "40.00",
+        "height": "12.20",
+        "W/R": "100.00",
+        "lug-width": "20.00",
+        "text": ""
     },
     {
         "id": 14,
@@ -109,7 +210,15 @@
         "brand": "Rolex",
         "name": "Rolex Sky-Dweller Stainless Steel",
         "price": "200.000",
-        "color": "White"
+        "color": "White",
+        "material": "White Gold, Stainless Steel",
+        "glass": "Sapphire",
+        "back": "Closed",
+        "shape": "Round",
+        "diameter": "42.00",
+        "height": "14.10",
+        "W/R": "100.00",
+        "text": ""
     },
     {
         "id": 15,
@@ -117,7 +226,16 @@
         "brand": "Rolex",
         "name": "Rolex Cosmograph Daytona 100th Anniversary 24H Hours of Le Mans",
         "price": "150.000",
-        "color": "gold"
+        "color": "gold",
+        "material": "Ceramic, Yellow Gold",
+        "glass": "Sapphire",
+        "back": "Open",
+        "shape": "Round",
+        "diameter": "40.00",
+        "height": "12.20",
+        "W/R": "100.00",
+        "lug-width": "20.00",
+        "text": ""
     },
     {
         "id": 16,
@@ -125,6 +243,14 @@
         "brand": "Rolex",
         "name": "Rolex Sky-Dweller Stainless Steel",
         "price": "200.000",
-        "color": "White"
+        "color": "White",
+        "material": "White Gold, Stainless Steel",
+        "glass": "Sapphire",
+        "back": "Closed",
+        "shape": "Round",
+        "diameter": "42.00",
+        "height": "14.10",
+        "W/R": "100.00",
+        "text": ""
     }
 ]
