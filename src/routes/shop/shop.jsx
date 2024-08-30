@@ -1,26 +1,24 @@
-import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react'
+import { Link, useParams } from 'react-router-dom'
 
 import db from '../../assets/db.json'
-import ProductInfo from '../../components/product-info/product-info'
 
 import './shop.scss'
 
 const Shop = () => {
+  const { brand } = useParams();
+  const shop = db.find(item => item.brand === brand)
 
-  const [brand, setBrand] = useState('Patek Philippe')
-
-  const handleClick = () => {
-    setBrand(prevBrand => prevBrand === 'Patek Philippe' ? 'Rolex' : 'Patek Philippe')
-  }
+  if (!shop) {
+    return <div>Fuck You!</div>
+}
 
   return (
     <div className='shop'>
-      <button className='btn' onClick={handleClick}>Click me</button>
       <div className='shop-container'>
         {
           db.map ( item => {
-            if (item.brand == brand) {
+            if (item.brand === brand) {
               return (
                 <Link to={ item.name } className='product' key={ item.id }>
                    <img src={ item.img } className='product-img' />

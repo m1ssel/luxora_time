@@ -3,7 +3,7 @@ import React from 'react'
 import MainSection from '../../components/home/main-section/main-section'
 import SecondSection from '../../components/home/second-section/second-section'
 import FourthSection from '../../components/home/fourth-section/fourth-section'
-import Footer from '../footer/footer'
+import Dropdown from '../../components/dropdown/dropdown'
 import './home.scss'
 
 const Home = () => {
@@ -12,6 +12,7 @@ const Home = () => {
       <MainSection />
       <SecondSection />
       <FourthSection />
+      {/* <Dropdown /> */}
     </main>
   )
 }

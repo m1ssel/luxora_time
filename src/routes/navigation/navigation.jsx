@@ -3,7 +3,7 @@ import { Outlet, Link } from "react-router-dom";
 import { BsCart2 } from "react-icons/bs";
 import { BsPerson } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
-import { BsList } from "react-icons/bs";
+import Dropdown from "../../components/dropdown/dropdown";
 import Logo from '../../assets/images/logo-black.png';
 
 import "./navigation.scss";
@@ -32,7 +32,7 @@ const Navigation = () => {
               <BsSearch className="search-img"/>
             </div> */}
             <div className="list-container">
-              <BsList className="list-icon" />
+              <Dropdown />
             </div>
           </div>
         </div>

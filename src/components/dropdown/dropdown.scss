@@ -1,0 +1,85 @@
+.list-icon {
+    width: 170%;
+    height: 170%;
+    transform: scale(1.7);
+    cursor: pointer;
+}
+.dropdown-container {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    z-index: 10;
+    .dropdown-menu {
+        top: 0;
+        right: -100%;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        max-width: 26rem;
+        position: fixed;
+        flex-direction: column;
+        background-color: #1d1d1d;
+        color: white;
+        z-index: 10;
+        transition: right .3s ease;
+        .close-container {
+            padding: 3rem 3rem 0 3rem;
+            display: flex;
+            justify-content: end;
+            .close-link {
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+                .close-text {
+                    padding: 1rem;
+                    font-size: 0.9rem;
+                }
+                .close-icon-container {
+                    height: max-content;
+                    margin-top: 0.2rem;
+                        .close-icon {
+                        width: 100%;
+                        height: 100%;
+                        transform: scale(1.5);
+                    }
+                }
+                &:hover {
+                    .close-text {
+                        color: #ffffffd2;
+                    }
+                    .close-icon {
+                        color: #ffffffd2;
+                    }
+                }
+            }
+        }
+        .dropdown-list-container {
+            padding: 0 2rem;
+            .dropdown-list {
+                .dropdown-list-item {
+                    padding: 1.5rem 10rem 2rem 0;
+                    list-style-type: none;
+                    width: 100%;
+                    border-bottom: #68457a solid 1px;
+                    cursor: pointer;
+                    .list-item {
+                        text-decoration: none;
+                        color: white;
+                        letter-spacing: 0.1rem;
+                    }
+                    &:hover {
+                        .list-item {
+                            color: #a16abc;
+                        }
+                    }
+                }
+            }
+        }
+        &.active {
+            right: 0;
+        }
+    }
+}
