@@ -1,9 +1,8 @@
 import React from 'react'
-import { useParams } from 'react-router-dom';
 
+import { useParams } from 'react-router-dom';
 import { BsHeart } from "react-icons/bs";
 import ProductInfo from '../../components/product-info/product-info';
-
 import db from '../../assets/db.json';
 
 import './product.scss'

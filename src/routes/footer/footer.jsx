@@ -1,6 +1,6 @@
 import React from 'react'
+
 import { Outlet, Link } from "react-router-dom"
-import { Fragment } from 'react'
 
 import './footer.scss'
 

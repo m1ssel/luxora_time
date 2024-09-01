@@ -1,6 +1,6 @@
 import React from 'react'
-import { Link, useParams } from 'react-router-dom'
 
+import { Link, useParams } from 'react-router-dom'
 import db from '../../assets/db.json'
 
 import './shop.scss'

@@ -1,6 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
+import { Link } from 'react-router-dom'
 import WatchesBanner from '../../../assets/images/banner1.jpg'
 
 import './main-section.scss'

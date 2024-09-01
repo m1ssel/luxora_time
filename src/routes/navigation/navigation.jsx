@@ -1,5 +1,6 @@
-import { Outlet, Link } from "react-router-dom";
+import React from 'react'
 
+import { Outlet, Link } from "react-router-dom";
 import { BsCart2 } from "react-icons/bs";
 import { BsPerson } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
