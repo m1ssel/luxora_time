@@ -23,7 +23,7 @@ const Dropdown = () => {
     const toggleClass = () => setIsClassActive(!isClassActive);
 
     return (
-        <>
+        <div className='list-container'>
             <BsList className="list-icon" onClick={toggleClass} />
             <div className='dropdown-container'>
                 <div className={`dropdown-menu ${isClassActive ? 'active' : ''}`}>
@@ -46,7 +46,7 @@ const Dropdown = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     );
 };
 

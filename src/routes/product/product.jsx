@@ -27,7 +27,7 @@ const Product = () => {
                     <p className='product-price'>${product.price}</p>
                     <div className='buttons-container'>
                         <button className='btn-heart'> <BsHeart className='btn-heart-img'/> </button>
-                        <button className='btn-add'>Add to Bag</button>
+                        <button className='btn-add'>Add to Cart</button>
                     </div>
                 </div>
             </div>

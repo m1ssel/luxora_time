@@ -1,0 +1,115 @@
+.cart-container {
+    width: 18px;
+    height: 18px;
+    .cart-img {
+        width: 100%;
+        height: 100%;
+    }
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.657);
+    z-index: 5;
+    pointer-events: all; 
+}
+.cart-dropdown-container {
+    top: 0;
+    right: 0;
+    .cart-dropdown {
+        top: 0;
+        right: -100%;
+        height: 100%;
+        position: fixed;
+        z-index: 10;
+        display: flex;
+        flex-direction: column;
+        max-width: 59.5rem;
+        background-color: white;
+        width: 33%;
+        transition: 0.3s;
+        .head-section {
+            padding: 2rem;
+            border-bottom: 1px solid #1111113f;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .cart-main-text {
+                font-weight: 600;
+                letter-spacing: 0.01rem;
+            }
+            .cross-icon-container {
+                cursor: pointer;
+                border: 2px solid #11111111;
+                padding: 0.5rem 0.5rem;
+                border-radius: 100%;
+                display: flex;
+                .cross-icon {
+                    transform: scale(0.9);
+                }
+                &:hover {
+                    border: 2px solid black;
+                    background-color: black;
+                    .cross-icon {
+                        color: white;
+                    }
+                }
+            }
+        }
+        .cart-product-section {
+            .cart-product {
+
+            }
+        }
+        .total-section {
+            padding: 2rem;
+            width: 33%;
+            border-top: 1px solid #1111113f;
+            position: fixed;
+            bottom: 0;
+            .total-container {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-bottom: 2rem;
+                .total-text {
+
+                }
+                .total-price {
+
+                }
+            }
+            .checkout-container {
+                display: flex;
+                justify-content: space-between;
+                text-decoration: none;
+                color: white;
+                background-color: black;
+                padding: 1rem;
+                font-weight: 500;
+                border-radius: 5px;
+                border: 1px solid black;
+                .checkout-text {
+
+                }
+                .arrow-container {
+                    display: flex;
+                    .arrow-img {
+                        height: 100%;
+                        transform: scale(1.5);
+                    }
+                }
+                &:hover {
+                    background-color: white;
+                    color: black;
+                }
+            }
+        }
+        &.active {
+            right: 0;
+        }
+    }
+}

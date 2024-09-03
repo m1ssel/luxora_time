@@ -1,10 +1,10 @@
 import React from 'react'
 
 import { Outlet, Link } from "react-router-dom";
-import { BsCart2 } from "react-icons/bs";
+
 import { BsPerson } from "react-icons/bs";
-import { BsSearch } from "react-icons/bs";
 import Dropdown from "../../components/dropdown/dropdown";
+import CartDropdown from '../../components/cart-dropdown/cart-dropdown';
 import Logo from '../../assets/images/logo-black.png';
 
 import "./navigation.scss";
@@ -25,16 +25,8 @@ const Navigation = () => {
               <div className="profile-text">Profile</div>
               <div className="profile-container"> <BsPerson className="profile-img"/> </div>
             </div>
-            <div className="nav-link-container">
-              <div className="profile-text">Cart</div>
-              <div className="cart-container"> <BsCart2 className="cart-img"/> </div>
-            </div>
-            {/* <div className="search-container">
-              <BsSearch className="search-img"/>
-            </div> */}
-            <div className="list-container">
-              <Dropdown />
-            </div>
+            <CartDropdown />
+            <Dropdown />
           </div>
         </div>
       </header>

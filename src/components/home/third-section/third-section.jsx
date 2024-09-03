@@ -1,8 +1,7 @@
 import React, { useRef, useState, useEffect } from 'react'
 
 import { useNavigate } from 'react-router-dom';
-import { BsArrowLeftShort } from "react-icons/bs";
-import { BsArrowRightShort } from "react-icons/bs";
+import { BsArrowLeftShort, BsArrowRightShort } from "react-icons/bs";
 import Slider from "react-slick";
 import db from '../../../assets/db.json'
 
