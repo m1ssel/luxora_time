@@ -10,7 +10,7 @@ const MainSection = () => {
     <div className="banner-container">
         <div className='banner-text-container'>
             <div className='banner-main-text'> Buy for your own </div>
-            <Link to="./shop" className='banner-link'>Shop now</Link>
+            <Link to="./shop/Rolex" className='banner-link'>Shop now</Link>
         </div>
         <img src={WatchesBanner} alt="asd" className='banner-img'/>
     </div>
