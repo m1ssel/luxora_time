@@ -1,0 +1,241 @@
+.checkout-container {
+    display: flex;
+    border-top: 1px solid #00000029;
+    .order-section-container {
+        width: 55%;
+        display: flex;
+        justify-content: end;
+        border-right: 1px solid #00000029;
+        .order-section {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            padding: 2rem 3rem;
+            .contact-container {
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+                .contact-group {
+                    display: flex;
+                    justify-content: space-between;
+                    .contact-text {
+                        font-weight: 500;
+                    }
+                    .log-in-link {
+                        color: #126197;
+                        font-weight: 500;
+                        text-decoration: none;
+                    }
+                }
+                .email-input {
+                    padding: 1rem 0.5rem;
+                    border-radius: 5px;
+                    border: 1px solid #00000029;
+                }
+                .mailing-text {
+    
+                }
+            }
+            .delivery-container {
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+                .delivery-text {
+                    font-weight: 500;
+                }
+                .form-container {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1rem;
+                    .country-input {
+                        padding: 1rem 0.5rem;
+                        border-radius: 5px;
+                        border: 1px solid #00000029;
+                    }
+                    .name-container {
+                        display: flex;
+                        justify-content: space-between;
+                        .first-name-input {
+                            padding: 1rem 0.5rem;
+                            border-radius: 5px;
+                            border: 1px solid #00000029;
+                            width: 49%;
+                        }
+                        .last-name-input {
+                            padding: 1rem 0.5rem;
+                            border-radius: 5px;
+                            border: 1px solid #00000029;
+                            width: 49%;
+                        }
+                    }
+                    .company-input {
+                        padding: 1rem 0.5rem;
+                        border-radius: 5px;
+                        border: 1px solid #00000029;
+                    }
+                    .address-input {
+                        padding: 1rem 0.5rem;
+                        border-radius: 5px;
+                        border: 1px solid #00000029;
+                    }
+                    .apartment-input {
+                        padding: 1rem 0.5rem;
+                        border-radius: 5px;
+                        border: 1px solid #00000029;
+                    }
+                    .city-container {
+                        display: flex;
+                        justify-content: space-between;
+                        .city-input {
+                            padding: 1rem 0.5rem;
+                            border-radius: 5px;
+                            border: 1px solid #00000029;
+                            width: 32%;
+                        }
+                        .state-input {
+                            padding: 1rem 0.5rem;
+                            border-radius: 5px;
+                            border: 1px solid #00000029;
+                            width: 32%;
+                        }
+                        .zip-code-input {
+                            padding: 1rem 0.5rem;
+                            border-radius: 5px;
+                            border: 1px solid #00000029;
+                            width: 32%;
+                        }
+                    }
+                    .phone-input {
+                        padding: 1rem 0.5rem;
+                        border-radius: 5px;
+                        border: 1px solid #00000029;
+                    }
+                }
+                .save-text {
+    
+                }
+            }
+            .shipping-container {
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+                .shipping-head {
+                    font-weight: 500;
+                }
+                .shipping-text {
+                    color: #0000008F;
+                    padding: 1rem;
+                    background-color: rgba(0, 0, 0, 0.03);
+                    font-size: 0.9rem;
+                }
+            }
+            .payment-container {
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+                .payment-head {
+                    font-weight: 500;
+                }
+                .payment-text {
+                    color: #0000008F;
+                }
+                .payment-card {
+                    padding: 1rem;
+                    background-color: #F6F6F6;
+                    border: 1px solid black;
+                    border-top-left-radius: 5px;
+                    border-top-right-radius: 5px;
+                    cursor: pointer;
+                }
+            }
+            .billing-container {
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+                .billing-head {
+                    font-weight: 500;
+                }
+                .billing-text {
+                    padding: 1rem;
+                    background-color: #F6F6F6;
+                    border: 1px solid black;
+                    font-size: 0.9rem;
+                    border-top-left-radius: 5px;
+                    border-top-right-radius: 5px;
+                    cursor: pointer;
+                }
+            }
+            .pay-container {
+                display: flex;
+                
+                .pay-now {
+                    display: flex;
+                    justify-content: center;
+                    padding: 1rem;
+                    width: 100%;
+                    color: white;
+                    background-color: black;
+                    cursor: pointer;
+                }
+            }
+            .checkout-footer {
+                padding-top: 1rem;
+                border-top: 1px solid #00000029;
+                display: flex;
+                gap: 0.5rem;
+                .checkout-footer-text {
+                    color: b;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .order-info-section-container {
+        width: 45%;
+        display: flex;
+        justify-content: start;
+        background-color: #F4F4F4;
+        .order-info-section {
+            padding: 2rem 3rem;
+            .item-container {
+
+            }
+            .other-container {
+                display: flex;
+                flex-direction: column;
+                gap: 1.5rem;
+                .discount-container {
+                    display: flex;
+                    justify-content: space-between;
+                    .discount-input {
+                        padding: 1rem 12rem 1rem 0.5rem;
+                        width: 80%;
+                        border-radius: 5px;
+                        border: 1px solid black;
+                    }
+                    .discount-btn {
+                        padding: 1rem 1rem;
+                        border-radius: 5px;
+                        border: 1px solid black;
+                        background-color: #e8e8e8;
+                    }
+                }
+                .pricing-container {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1rem;
+                    .pricing-section {
+                        display: flex;
+                        justify-content: space-between;
+                        .pricing-item {
+    
+                        }
+                    }
+                    .bold-section {
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+        }
+    }
+}   

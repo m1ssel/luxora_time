@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { Link, useNavigate } from 'react-router-dom';
 
 import { BsCart2, BsXLg, BsArrowRightShort } from "react-icons/bs";
 
@@ -6,24 +7,24 @@ import './cart-dropdown.scss'
 
 const CartDropdown = () => {
     const [isClassActive, setIsClassActive] = useState(false);
-
     const toggleClass = () => setIsClassActive(!isClassActive);
+    const navigate = useNavigate();
+    const handleItemClick = () => {
+        navigate('/checkout')
+        setIsClassActive(false);
+    };
 
     useEffect(() => {
         if (isClassActive) {
-            // Disable scroll when dropdown is active
             document.body.style.overflow = 'hidden';
         } else {
-            // Enable scroll when dropdown is inactive
             document.body.style.overflow = 'auto';
         }
 
-        // Cleanup on component unmount or when state changes
         return () => {
             document.body.style.overflow = 'auto';
         };
     }, [isClassActive]);
-    
     return (
         <>
             <div className='nav-link-container' onClick={toggleClass} >
@@ -45,7 +46,7 @@ const CartDropdown = () => {
                             <p className='total-text'>Subtotal:</p>
                             <p className='total-price'>$7.200</p>
                         </div>
-                        <a href='/' className='checkout-container'>
+                        <a className='checkout-container' onClick={handleItemClick}>
                             <div className='checkout-text'>Checkout</div>
                             <div className='arrow-container'> <BsArrowRightShort className='arrow-img' /> </div>
                         </a>

@@ -6,6 +6,7 @@ import Home from './routes/home/home';
 import Footer from './routes/footer/footer';
 import Shop from './routes/shop/shop';
 import Product from './routes/product/product';
+import CheckoutPage from './routes/checkout-page/checkout-page';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
             <Route path="shop/:brand" element={<Shop />} />
             <Route path="shop/:brand/:name" element={<Product />} />
           </Route>
+          <Route path="/checkout" element={<CheckoutPage />} />
         </Route>
       </Routes>
     </>
