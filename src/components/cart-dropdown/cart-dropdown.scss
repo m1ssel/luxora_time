@@ -60,16 +60,61 @@
             }
         }
         .cart-product-section {
+            padding: 2rem;
+            overflow-y: scroll;
             .cart-product {
+                display: flex;
+                gap: 2rem;
+                border-bottom: 1px solid #1111113f;
+                margin-bottom: 2rem;
+                height: 10rem;
+                .cart-product-img {
+                    height: 8rem;
+                    min-width: 9rem;
+                    padding: 1rem 2rem;
+                    border-radius: 5px;
+                }
+                .cart-product-info {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    .cart-product-specific {
+                        .cart-product-name {
 
+                        }
+                        .cart-product-color {
+                            margin-top: 0.3em;
+                            color: gray;
+                        }
+                    }
+                    .cart-product-price-container {
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 1.9rem;
+                        .cart-product-quantity {
+                            display: flex;
+                            align-items: center;
+                            gap: 1rem;
+                            border: 1px solid #a6a6a62c;
+                            padding: 0.5rem 0.5rem;
+                            border-radius: 5px;
+                            .quantity-changer {
+                                cursor: pointer;
+                            }
+                        }
+                        .cart-product-price {
+                            margin-left: 14rem;
+                        }
+                    }
+                }
             }
         }
         .total-section {
             padding: 2rem;
-            width: 33%;
+            width: 100%;
             border-top: 1px solid #1111113f;
-            position: fixed;
-            bottom: 0;
+            background-color: white;
+            margin-top: auto;
             .total-container {
                 display: flex;
                 flex-direction: row;

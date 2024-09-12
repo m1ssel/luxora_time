@@ -9,7 +9,7 @@ import Logo from '../../assets/images/logo-black.png';
 
 import "./navigation.scss";
 
-const Navigation = () => {
+const Navigation = ({setShowLogin}) => {
   return (
     <>
       <header>
@@ -22,7 +22,7 @@ const Navigation = () => {
           </div>
           <div className="nav-right">
             <div className="nav-link-container">
-              <div className="profile-text">Profile</div>
+              <div className="profile-text" onClick={()=>setShowLogin(true)}>Profile</div>
               <div className="profile-container"> <BsPerson className="profile-img"/> </div>
             </div>
             <CartDropdown />

@@ -10,7 +10,7 @@ const Shop = () => {
   const shop = db.find(item => item.brand === brand)
 
   if (!shop) {
-    return <div>Fuck You!</div>
+    return <div>Error</div>
 }
 
   return (
@@ -24,7 +24,7 @@ const Shop = () => {
                    <img src={ item.img } className='product-img' />
                    <h3 className='product-brand'> { item.brand } </h3>
                    <h2 className='product-name'> { item.name } </h2>
-                   <p className='product-price'> ${ item.price } </p>
+                   <p className='product-price'> ${ item.price.toLocaleString('en') } </p>
                 </Link>
                )
             }

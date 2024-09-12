@@ -1,13 +1,14 @@
-import React from 'react'
+import React, { useContext } from 'react'
 
 import { useParams } from 'react-router-dom';
 import { BsHeart } from "react-icons/bs";
 import ProductInfo from '../../components/product-info/product-info';
-import db from '../../assets/db.json';
+import { StoreContext } from '../../context/StoreContext';
 
 import './product.scss'
 
 const Product = () => {
+    const {cartItems, addToCart, removeFromCart, db} = useContext(StoreContext);
     const { name } = useParams()
     const product = db.find(item => item.name == name)
 
@@ -24,10 +25,10 @@ const Product = () => {
                     <h2 className='product-name'>{product.name}</h2>
                     <p className='product-color-container'>Color: <div className='product-color'>{product.color}</div></p>
                     <img src={product.img} alt={product.name} className='product-mini-img' />
-                    <p className='product-price'>${product.price}</p>
+                    <p className='product-price'>${product.price.toLocaleString('en')}</p>
                     <div className='buttons-container'>
                         <button className='btn-heart'> <BsHeart className='btn-heart-img'/> </button>
-                        <button className='btn-add'>Add to Cart</button>
+                        <button className='btn-add' onClick={()=>addToCart(product.id)}>Add to Cart</button>
                     </div>
                 </div>
             </div>
