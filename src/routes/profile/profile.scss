@@ -1,0 +1,62 @@
+.profile-container {
+    max-width: 96%;
+    height: 90vh;
+    margin: 0 auto;
+    .profile {
+        text-align: center;
+    }
+    .favorite-items {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 2rem;
+        .favorite-item {
+            text-align: center;
+            text-decoration: none;
+            color: #222222;
+            width: 25%;
+            margin-top: 5rem;
+            .item-img {
+                max-height: 25rem;
+                margin-bottom: 2rem;
+            }
+            .item-name {
+                margin-bottom: 0.5rem;
+                max-width: 30rem;
+                font-size: 1.1rem;
+                font-weight: 600;
+            }
+            .buttons-container {
+                display: flex;
+                justify-content: center;
+                gap: 2rem;
+                .btn-add {
+                    padding: 1rem 1.5rem;
+                    font-weight: 600;
+                    font-size: 1rem;
+                    background-color: white;
+                    border: 1px solid black;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    &:hover {
+                        background-color: black;
+                        color: white;
+                    }
+                }
+                .btn-delete {
+                    padding: 1rem 1.5rem;
+                    font-weight: 600;
+                    font-size: 1rem;
+                    background-color: black;
+                    color: white;
+                    border: 1px solid black;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    &:hover {
+                        background-color: white;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}

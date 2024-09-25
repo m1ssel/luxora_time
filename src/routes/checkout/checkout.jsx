@@ -1,8 +1,15 @@
-import React from 'react'
+import React, { useContext } from 'react';
 
-import './checkout-page.scss'
+import { StoreContext } from '../../context/StoreContext';
+
+import './checkout.scss'
 
 const CheckoutPage = () => {
+  const { db, cartItems, formattedTotalAmount } = useContext(StoreContext);
+  const subtotalPrice = 10
+  const formattedTotalNumber = parseFloat(formattedTotalAmount.replace(/,/g, ''));
+  const totalPrice = formattedTotalNumber + subtotalPrice
+  const formattedTotalPrice = totalPrice.toLocaleString('en')
   return (
     <div className='checkout-container'>
         <div className='order-section-container'>
@@ -10,7 +17,7 @@ const CheckoutPage = () => {
                 <div className='contact-container'>
                     <div className='contact-group'>
                         <h2 className='contact-text'>Contact</h2>
-                        <a href="/" className='log-in-link'>Log In</a>
+                        {/* <a className='log-in-link' onClick={() => { setIsLoginForm(true); setShowLogin(true); }}>Log In</a> */}
                     </div>
                     <input type="text" placeholder='Email' className='email-input'/>
                     <p className='mailing-text'>Email me with news and offers</p>
@@ -60,7 +67,31 @@ const CheckoutPage = () => {
         </div>
         <div className='order-info-section-container'>
             <div className='order-info-section'>
-                <div className='item-container'></div>
+                <div className='item-container'>
+                    {Object.keys(cartItems).map((itemId) => {
+                        const item = db.find((product) => product.id === parseInt(itemId));
+                        if (item && cartItems[itemId] > 0) {
+                            const totalPrice = item.price * cartItems[itemId];
+                            const formattedPrice = totalPrice.toLocaleString('en');
+                            return (
+                            <div className='cart-product' key={item.id}>
+                                <img src={item.img} alt={item.id} className='cart-product-img' />
+                                <div className='cart-product-info'>
+                                <div className='cart-product-specific'>
+                                    <h4 className='cart-product-name'>{item.name}</h4>
+                                    <p className='cart-product-color'>{item.color}</p>
+                                </div>
+                                <div className='cart-product-price-container'>
+                                    <p className='cart-product-quantity'>Quantity: {cartItems[item.id]}</p>
+                                    <p className='cart-product-price'>${formattedPrice}</p>
+                                </div>
+                                </div>
+                            </div>
+                            );
+                        }
+                        return null;
+                    })}
+                </div>
                 <div className='other-container'>
                     <div className='discount-container'>
                         <input type="text" placeholder='Discount code' className='discount-input'/>
@@ -69,15 +100,15 @@ const CheckoutPage = () => {
                     <div className='pricing-container'>
                         <div className='pricing-section'>
                             <p className='pricing-item'>Subtotal (1 item)</p>
-                            <p className='pricing-item'>$19,888.00</p>
+                            <p className='pricing-item'>${formattedTotalAmount}</p>
                         </div>
                         <div className='pricing-section'>
                             <p className='pricing-item'>Shipping</p>
-                            <p className='pricing-item'>Enter shipping address</p>
+                            <p className='pricing-item'>${subtotalPrice}</p>
                         </div>
                         <div className='pricing-section bold-section'>
                             <b className='pricing-item'>Total</b>
-                            <b className='pricing-item'>$19,888.00</b>
+                            <b className='pricing-item'>${formattedTotalPrice}</b>
                         </div>
                     </div>
                 </div>

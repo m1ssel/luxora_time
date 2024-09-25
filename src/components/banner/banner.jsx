@@ -1,10 +1,13 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 import { BsArrowRightShort } from "react-icons/bs";
 
-const BannerComponent = ({ Banner, MainText, SecondaryText }) => {
+import './banner.scss'
+
+const BannerComponent = ({ Banner, MainText, SecondaryText, LinkRoute }) => {
   return (
-    <div className='choose-block'>
+    <Link to={`/shop/${LinkRoute}`} className='choose-block'>
         <img src={Banner} alt="banner" className='choose-banner'/>
         <div className='choose-internal-text'>
             <div className='choose-text-container'>
@@ -13,7 +16,7 @@ const BannerComponent = ({ Banner, MainText, SecondaryText }) => {
             </div>
             <div className='arrow-container'> <BsArrowRightShort className='arrow-img' /> </div>
         </div>
-    </div>
+    </Link>
   )
 }
 

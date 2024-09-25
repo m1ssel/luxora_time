@@ -9,7 +9,7 @@ import { BsCart2, BsXLg, BsArrowRightShort, BsPlus, BsDash } from "react-icons/b
 import './cart-dropdown.scss'
 
 const CartDropdown = () => {
-    const {cartItems, db, removeFromCart, addToCart} = useContext(StoreContext)
+    const {cartItems, db, removeFromCart, addToCart, updateTotalAmount } = useContext(StoreContext)
     const [isClassActive, setIsClassActive] = useState(false);
     const toggleClass = () => setIsClassActive(!isClassActive);
     const navigate = useNavigate();
@@ -40,6 +40,10 @@ const CartDropdown = () => {
 
     const formattedTotalAmount = totalAmount.toLocaleString('en');
 
+    useEffect(() => {
+        updateTotalAmount(totalAmount);
+    }, [totalAmount, updateTotalAmount]);
+
     return (
         <>
             <div className='nav-link-container' onClick={toggleClass} >
@@ -54,7 +58,7 @@ const CartDropdown = () => {
                         <div className='cross-icon-container' onClick={toggleClass}><BsXLg className='cross-icon' /></div>
                     </div>
                     <div className='cart-product-section'>
-                        {db.map((item, index)=> {
+                        {db.map((item)=> {
                             if(cartItems[item.id]>0) {
                                 const totalPrice = item.price * cartItems[item.id];
                                 const formattedPrice = totalPrice.toLocaleString('en');

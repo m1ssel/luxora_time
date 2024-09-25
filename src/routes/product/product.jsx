@@ -8,7 +8,7 @@ import { StoreContext } from '../../context/StoreContext';
 import './product.scss'
 
 const Product = () => {
-    const {cartItems, addToCart, removeFromCart, db} = useContext(StoreContext);
+    const {addToCart, addToFavorites, db} = useContext(StoreContext);
     const { name } = useParams()
     const product = db.find(item => item.name == name)
 
@@ -27,7 +27,7 @@ const Product = () => {
                     <img src={product.img} alt={product.name} className='product-mini-img' />
                     <p className='product-price'>${product.price.toLocaleString('en')}</p>
                     <div className='buttons-container'>
-                        <button className='btn-heart'> <BsHeart className='btn-heart-img'/> </button>
+                        <button className='btn-heart' onClick={() => addToFavorites(product)}> <BsHeart className='btn-heart-img'/> </button>
                         <button className='btn-add' onClick={()=>addToCart(product.id)}>Add to Cart</button>
                     </div>
                 </div>
